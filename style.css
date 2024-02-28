@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('d4c6cc10f11482a83273ba05ed11f193.jpeg') no-repeat center center/cover fixed;
+}
+.app {
+    background: #2e5067;    ;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-weight: 25px;
+    color: #dae4eb;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+}
+
+.quizz {
+    padding: 20px 0;
+}
+
+.quizz h2 {
+    font-size: 18px;
+    color: #dae4eb;
+    font-weight: 600;
+}
+
+.btn {
+background: #3e6b8a;
+color: #dae4eb;
+font-weight: 600;
+width: 100%;
+border: 1px solid #dae4eb;
+padding: 10px;
+margin: 10px 0;
+text-align: left;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #ecf1f5;
+    color: #1c303e;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #1c303e;
+    color: #ecf1f5;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 10px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #799c46;
+}
+
+.incorrect {
+    background: #9c4679;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    width: auto;
+}
